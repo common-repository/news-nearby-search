@@ -1,0 +1,97 @@
+.blm-settings-section {
+float: left;
+width: 100%;
+border-top: 1px solid #e1e1e1;
+}
+
+.blm-settings-section h2 {
+margin-bottom: 5px;
+}
+
+.blm-settings-section-description {
+float: left;
+width: auto;
+margin-bottom: 20px;
+}
+
+table.form-table th {
+font-weight: 400;
+}
+
+table.form-table th span {
+font-size: 12px;
+}
+
+table.form-table th strong {
+float: left;
+width: auto;
+}
+
+table.form-table td {
+vertical-align:top;
+}
+
+table.form-table td input {
+float: left;
+width: 450px;
+margin: 0;
+}
+
+table.form-table td .blm-field-note {
+float: left;
+}
+
+.blm-field-message {
+float: left;
+width: auto;
+height: 27px;
+padding: 0 10px;
+font-size: 11px;
+line-height: 27px;
+color: #575757;
+border-left: 4px solid #b06060;
+background: #fff;
+}
+
+.blm-field-message span:after {
+content: ":  ";
+}
+
+.blm-field-note[data-code="1"] .blm-field-message {
+border-left: 4px solid #75BFA7;
+}
+
+.blm-field-note[data-code="1"] .blm-field-message span:after {
+content: "";
+}
+
+td[data-field="google-api-key"] .blm-field-note[data-code="1"] .blm-field-message {
+padding: 0;
+}
+
+td[data-field="google-api-key"] .blm-field-note[data-code="1"] .blm-field-message a {
+display: none;
+}
+
+.blm-field-note[data-code="1"] .blm-field-link {
+display: none;
+}
+
+.form-table a.thickbox,
+.form-table a.blm-external-link {
+float: left;
+width: 15px;
+height: 15px;
+background: transparent url('../images/icon-info.png') top left no-repeat;
+margin: 1px 0 0 10px;
+outline: none !important;
+}
+
+#TB_ajaxContent {
+padding: 0 30px !important;
+}
+
+#TB_title {
+background: none !important;
+border: 0 !important;
+}

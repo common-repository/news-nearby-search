@@ -1,0 +1,130 @@
+/**
+*Admin Section
+*/
+
+#blm-meta-intro {
+	width: 96%;
+	margin: 20px 2%;
+}
+
+#blm-location-selection-tool {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+/**
+*Admin Location Search and Selection
+*/
+
+#blm-location-search,
+#blm-location-choice {
+	display: inline-table;
+	width: 45%;
+	margin: 0 2%;
+}
+
+#blm-location-choice[data-display="0"] {
+	display: none;
+}
+
+.blm-search-title {
+	width: 100%;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.blm-search-body {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#blm-location-input {
+	height: 28px;
+}
+
+#blm-location-choice-value {
+	width: 100%;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: bold;
+}
+
+#blm-location-choice-components {
+	display: none;
+	float: left;
+	width: 100%;
+}
+
+#blm-location-search button,
+#blm-location-choice button {
+	display: inline-block;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	color: #555;
+	background: #f7f7f7;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	border: 1px solid #ccc;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, 0.08);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#blm-location-search button:hover, 
+#blm-location-choice button:hover {
+	background: #fafafa;
+	border-color: #999;
+	color: #23282d
+}
+
+#blm-location-choice button {
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#blm-location-results {
+	float: left;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+#blm-location-results[data-display="1"] {
+	height: auto;
+}
+
+#blm-location-results li {
+	float: left;
+	width: 90%;
+	margin-bottom: 0;
+}
+
+#blm-location-results li:nth-child(even) {
+	background: #efefef;
+}
+
+#blm-location-results li a {
+	float: left;
+	width: 90%;
+	padding: 10px 5%;
+	text-decoration: none;
+}
+
+#blm-location-results li a:hover {
+	text-decoration: none;
+}
